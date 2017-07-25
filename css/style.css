@@ -104,6 +104,7 @@ h1 {
 }
 
 .popularArea {
+	position: relative;
 	top: -30px;
 	margin: 0 auto;
 	width: 800px;
