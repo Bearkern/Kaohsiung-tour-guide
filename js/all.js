@@ -36,11 +36,3 @@ xhr.onload = function() {
 		siteList.innerHTML = siteListLi;
 	}
 }
-
-	// var itemsPerPage = 6;
-	// var pages = {
-	// 	currentPage: 1,
-	// 	itemsPerPage: itemsPerPage,
-	// 	totalItems: dataLen,
-	// 	totalPages: dataLen / itemsPerPage
-	// }
