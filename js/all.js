@@ -1,9 +1,8 @@
 var xhr = new XMLHttpRequest();
-xhr.open('get', 'http://data.kcg.gov.tw/api/action/datastore_search?resource_id=92290ee5-6e61-456f-80c0-249eae2fcc97', true);
+xhr.open('get', 'data.json', true);
 xhr.send();
 xhr.onload = function() {
-	var xhrText = JSON.parse(xhr.responseText);
-	var data = xhrText.result.records;
+	var data = JSON.parse(xhr.responseText);
 	var selectZone = document.getElementById('selectZoneId');
 	var zoneTitle = document.getElementById('zoneTitleId');
 	var siteList = document.querySelector('.siteList');
